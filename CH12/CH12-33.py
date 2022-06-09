@@ -9,4 +9,4 @@ now = time.localtime()
 print("인기영화 베스트 10 ({}년 {}월 {}일)".format(now.tm_year, now.tm_mon, now.tm_mday))
 for i in range(10):
     title = rankLst[i].find('a')
-    print("rank {:2d}: {}".format(i+1,title.txt))
+    print("rank {:2d}: {}".format(i+1,title.text))
